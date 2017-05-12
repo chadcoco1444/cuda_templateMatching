@@ -1,0 +1,6 @@
+*.o
+*.out
+*.json
+*.txt
+*.DS_Store
+build/
