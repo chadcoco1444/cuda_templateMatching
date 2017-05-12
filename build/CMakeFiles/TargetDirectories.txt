@@ -1,3 +1,0 @@
-/Users/jason/Desktop/平行計算/parallelComputing/cuda_lab/cudaSFTP/templateMatching/build/CMakeFiles/rebuild_cache.dir
-/Users/jason/Desktop/平行計算/parallelComputing/cuda_lab/cudaSFTP/templateMatching/build/CMakeFiles/edit_cache.dir
-/Users/jason/Desktop/平行計算/parallelComputing/cuda_lab/cudaSFTP/templateMatching/build/CMakeFiles/templateMatching.dir
