@@ -97,8 +97,9 @@ __global__ void GPU_Kernel_ImgMatching(unsigned char * d_ImgSrc ,unsigned char *
         		for(int j=0; j<pWidth; j++) {               
 					p_sourceIMG = d_ImgSrc[(row + i) * Width + tid + j];
 					p_patternIMG = d_pImgSrc[i * pWidth + j];
-					if(p_sourceIMG > p_patternIMG) diff += p_sourceIMG - p_patternIMG;
-					else diff += p_patternIMG - p_sourceIMG;
+					//if(p_sourceIMG > p_patternIMG) diff += p_sourceIMG - p_patternIMG;
+					//else diff += p_patternIMG - p_sourceIMG;
+					diff += fabsf(p_sourceIMG - p_patternIMG);
 				}       
     		} 
     		d_diffDst[row * result_width + tid] = diff;
