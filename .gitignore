@@ -3,4 +3,4 @@
 *.json
 *.txt
 *.DS_Store
-build/
+build/*
